@@ -20,6 +20,7 @@ function App() {
     <div className="app__body">
       <Router>
         <Header user={user} token={token} />
+        <Header/>
         <Switch>
           <Route exact path="/boards/:id">
             <BoardPage />
